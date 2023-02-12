@@ -1,0 +1,71 @@
+{
+    "menu": [
+        {
+            "parent_menu":"Collapse",
+            "name": "User",
+            "slug": "javascript:void(0)",
+            "icon": "nav-icon fas fa-users",
+            "serial": 1,
+            "status": 1,
+            "submenu": [
+                
+                {
+                    "parent_menu":"User",
+                    "name": "Role",
+                    "slug": "roles",
+                    "icon": "nav-icon fas fa-circle",
+                    "serial": 1,
+                    "status": 1
+                }
+            ]
+        },
+        {
+            "parent_menu":"Collapse",
+            "name": "User2",
+            "slug": "javascript:void(0)",
+            "icon": "nav-icon fas fa-users",
+            "serial": 2,
+            "status": 1,
+            "submenu": [
+                
+                {
+                    "parent_menu":"User2",
+                    "name": "Business Setting",
+                    "slug": "business-settings",
+                    "icon": "nav-icon fas fa-circle",
+                    "serial": 1,
+                    "status": 1
+                }
+            ]
+        }
+        
+    ],
+    "permission": [
+        {
+            "name":"roles-list"
+        },
+        {
+            "name":"roles-create"
+        },
+        {
+            "name":"roles-edit"
+        },
+        {
+            "name":"roles-delete"
+        },
+        
+        {
+            "name":"business-setting-list"
+        },
+        {
+            "name":"business-setting-create"
+        },
+        {
+            "name":"business-setting-edit"
+        },
+        {
+            "name":"business-setting-delete"
+        }
+       
+    ]
+}
